@@ -62,6 +62,15 @@
                 "export namespace FrenchNumeric {"
             ],
             "footer": [ "}" ]
+        },
+        {
+            "input": [ "Arabic", "Arabic-Numbers" ],
+            "output": "ArabicNumeric",
+            "header": [
+                "import { BaseNumbers } from \"./baseNumbers\";",
+                "export namespace ArabicNumeric {"
+            ],
+            "footer": [ "}" ]
         }
     ]
 }
